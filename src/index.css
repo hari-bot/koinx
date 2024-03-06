@@ -7,10 +7,7 @@ body {
     background-color: #eff2f5;
 }
 
-.container{
-  margin-left: 60px;
-  margin-right: 60px;
-}
+
 
 .navbar {
   display: flex;
@@ -74,6 +71,26 @@ body {
   margin: 6px 0;
   transition: 0.4s;
 }
+
+.breadcrumb{
+  margin-top: 15px;
+  margin-left: 60px;
+  font-size: 14px;
+  color: #3E5765;
+  font-weight: 400;
+}
+
+
+.last-breadcrumb {
+  font-weight: bold;
+}
+
+.container{
+  margin-left: 60px;
+  background-color: #FFFFFF;
+}
+
+
 
 
 @media (max-width: 920px) {
