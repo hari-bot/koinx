@@ -170,6 +170,57 @@ hr{
   margin:  20px 4px;
 }
 
+.scroll-spy ul {
+    list-style: none outside none;
+    display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.scroll-spy ul::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-spy ul {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+.scroll-spy ul li {
+    border-bottom: 2px solid #DDDDDD;
+    cursor: pointer;
+    float: left;
+    margin: 0;
+    padding: 0 15px;
+    width:100px;
+    height:50px;
+    line-height:50px;
+    position: relative;
+    text-align:center;
+    font-weight: 500;
+    color: #3E424A;
+  
+}
+
+.clearfix {
+    clear: both;
+}
+.scroll-spy ul li:hover:after,
+.scroll-spy ul li.active:after{
+    border: 1px solid #1B4AEF;
+    color: #1B4AEF;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    width: 100px;
+}
+
+.scroll-spy ul li.active {
+  color: #1B4AEF;
+  font-weight: 600;
+}
+
+
 
 
 @media (max-width: 920px) {
@@ -186,7 +237,7 @@ hr{
     height: 260px;
     background-color: #FFFFFF;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    display: none; /* Initially hide on smaller screens */
+    display: none; 
   }
 
   .nav-links.mobile-menu-open {
@@ -202,8 +253,13 @@ hr{
   }
 
   .container {
-    margin: 15px 20px; /* Adjust margins for smaller screens */
+    margin: 15px 20px;
     width: 90%;
   }
+
+  .scroll-spy ul {
+    overflow-x: auto;
+    white-space: nowrap; 
+}
   
 }

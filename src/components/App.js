@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
 import Breadcrumb from "./Breadcrumb";
 import CryptoDashboard from "./CryptoDashboard";
-import TradingViewWidget from "./TradingViewWidget";
+import ScrollSpy from "./ScrollSpy";
 
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
       <Navbar />
       <Breadcrumb items={breadcrumbItems} />
       <CryptoDashboard />
+      <ScrollSpy />
     </div>
   );
 }
