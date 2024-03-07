@@ -4,6 +4,8 @@ import CryptoDashboard from "./CryptoDashboard";
 import ScrollSpy from "./ScrollSpy";
 import Perfomance from "./Perfomance";
 import Sentiment from "./Sentiment";
+import About from "./About";
+import Team from "./Team";
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
       <ScrollSpy />
       <Perfomance />
       <Sentiment />
+      <About />
+      <Team />
     </div>
   );
 }

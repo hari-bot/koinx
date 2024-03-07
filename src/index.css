@@ -403,9 +403,30 @@ hr{
   width: 16%;
 }
 
+.team-card{
+  background-color: #E8F4FD;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 15px;
+}
 
+.member-img{
+  border-radius: 10px;
+}
 
+.member-detail{
+  text-align: center;
+}
 
+.member-detail .name{
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px;
+}
 
 
 @media (max-width: 920px) {
@@ -446,5 +467,10 @@ hr{
     overflow-x: auto;
     white-space: nowrap; 
 }
+  .team-card{
+    display: flex;
+    flex-direction: column;
+
+  }
   
 }
