@@ -3,6 +3,7 @@ import Breadcrumb from "./Breadcrumb";
 import CryptoDashboard from "./CryptoDashboard";
 import ScrollSpy from "./ScrollSpy";
 import Perfomance from "./Perfomance";
+import Sentiment from "./Sentiment";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <CryptoDashboard />
       <ScrollSpy />
       <Perfomance />
+      <Sentiment />
     </div>
   );
 }

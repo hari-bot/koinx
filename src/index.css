@@ -91,10 +91,12 @@ body {
   background-color: #FFFFFF;
   padding:20px 25px;
   border-radius: 8px;
-  display: inline-block;
+  display: block;
   box-sizing: border-box;
   width: 880px;
 }
+
+
 
 .crypto-header{
   display: flex;
@@ -295,6 +297,114 @@ hr{
   height: 6px;
   border-radius: 3px;
 }
+
+.card-section {
+  display: grid;
+  grid-template-columns: var(--page-margin) [center-start] 1fr [center-end] var(--page-margin);
+  
+  & > * {
+    grid-column: center;
+  }
+}
+
+.cards-wrapper {
+  grid-column: center-start / -1;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  overflow: auto;
+  padding-bottom: 1rem;
+  padding-right: var(--page-margin);
+  
+  .card {
+    display: grid;
+    place-content: center;
+    width: 456px;
+    min-height: 204px;
+ 
+    padding: 0 18px;
+    color:#3E5765;
+    border-radius: 15px;
+  }
+
+  .card-content h3{
+    font-weight: 500px;
+    font-size: 14px;
+  }
+
+  .card-content p{
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .blue-card{
+    background-color:#E8F4FD;
+  }
+
+  .green-card{
+    background-color: #79d8b7;
+  }
+
+
+}
+
+.cards-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.cards-wrapper ul {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
+.analyst{
+  display: flex;
+  align-items: center;
+
+}
+
+.analyst-percent{
+  background-color: #6ee7bd;
+  padding: 65px;
+  border-radius: 50%;
+  font-size: 27px;
+  font-weight: 600;
+  color: #2f804f;
+  margin-right: 20px;
+}
+
+.analyst-list {
+  list-style: none;
+  padding: 0;
+}
+
+.analyst-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  height: 8px;
+  width: 100px; /* Adjust the width as needed */
+  margin-left: 10px;
+  background-color: #3498db; 
+  border-radius: 5px;
+}
+
+
+.analyst-list li:nth-child(2) .progress-bar {
+  background-color: #2ecc71; 
+  width:8%;
+}
+
+.analyst-list li:nth-child(3) .progress-bar {
+  background-color: #e74c3c; 
+  width: 16%;
+}
+
+
+
 
 
 
