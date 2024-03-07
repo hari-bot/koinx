@@ -27,6 +27,7 @@ function Navbar(){
                 <div className="bar"></div>
                 <div className="bar"></div>
            </div>
+
           
         </nav>
     )
