@@ -11,7 +11,7 @@ function ScrollSpy(){
                 <li>Tokenomics</li>
                 
                 
-                <div class="clearfix"></div>
+                <div className="clearfix"></div>
             </ul>
         </div>
     )

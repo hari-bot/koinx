@@ -2,6 +2,7 @@ import Navbar from "./Navbar";
 import Breadcrumb from "./Breadcrumb";
 import CryptoDashboard from "./CryptoDashboard";
 import ScrollSpy from "./ScrollSpy";
+import Perfomance from "./Perfomance";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Breadcrumb items={breadcrumbItems} />
       <CryptoDashboard />
       <ScrollSpy />
+      <Perfomance />
     </div>
   );
 }

@@ -93,6 +93,7 @@ body {
   border-radius: 8px;
   display: inline-block;
   box-sizing: border-box;
+  width: 880px;
 }
 
 .crypto-header{
@@ -220,6 +221,80 @@ hr{
   font-weight: 600;
 }
 
+.heading{
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.light-heading{
+  font-weight: 600;
+  font-size: 18.91px;
+  color: #44475B;
+}
+
+.info-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  column-gap: 100px;
+
+  @media (max-width: 920px) {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  
+}
+
+.info-key {
+  flex: 1;
+  text-align: left;
+  color: #768396 ;
+  font-weight: 500;
+  size: 14px;
+}
+
+.info-value {
+  flex: 1;
+  text-align: right;
+  font-weight: 600;
+
+}
+
+.additional-info {
+  font-size: 14px;
+  color: #777;
+  margin-left: 10px;
+}
+
+.todays-perfomance{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.todays-perfomance p{
+  color: #777;
+}
+
+.todays-perfomance .price{
+ font-weight: 600;
+}
+
+.indicator {
+  background: linear-gradient(90deg, #FF4949 0%, #FF4E11 15.34%, #FC870A 30.45%, #FFAF11 48.68%, #C2CB21 62.75%, #11EB68 100.03%);
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+}
 
 
 
