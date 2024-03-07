@@ -31,6 +31,8 @@ function CryptoDashboard() {
               usd_24h_change: response.data.market_data.price_change_percentage_24h_in_currency.usd,
               icon: response.data.image.small,
             };
+      
+
             setCoin(coinData)
           })
           .catch(error => {

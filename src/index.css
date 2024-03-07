@@ -7,7 +7,9 @@ body {
     background-color: #eff2f5;
 }
 
-
+.wrap-box{
+  display: flex;
+}
 
 .navbar {
   display: flex;
@@ -386,7 +388,7 @@ hr{
 
 .progress-bar {
   height: 8px;
-  width: 100px; /* Adjust the width as needed */
+  width: 70px;
   margin-left: 10px;
   background-color: #3498db; 
   border-radius: 5px;
@@ -428,8 +430,42 @@ hr{
   padding: 10px;
 }
 
+.you-may-also-like{
+  background-color: #FFFFFF;
+}
+
+.container-xl{
+  margin-top: 15px;
+  margin-left: 60px;
+  background-color: #FFFFFF;
+  padding:20px 25px;
+  border-radius: 8px;
+  display: block;
+  box-sizing: border-box;
+  width: 93%;
+}
+
+.coin .card{
+  background-color: #14B079;
+}
+
+.container-sm{
+  height: 225px;
+  width: 427px;
+  margin-top: 50px;
+  margin-left: 20px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius:1px;
+}
+
 
 @media (max-width: 920px) {
+  .wrap-box{
+    display: flex;
+    flex-direction: column;
+  }
+
   .icon-container {
     margin-right: 0;
   }
@@ -459,6 +495,16 @@ hr{
   }
 
   .container {
+    margin: 15px 20px;
+    width: 90%;
+  }
+
+  .container-xl{
+    margin: 15px 20px;
+    width: 90%;
+  }
+
+  .container-sm{
     margin: 15px 20px;
     width: 90%;
   }

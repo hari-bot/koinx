@@ -6,24 +6,38 @@ import Perfomance from "./Perfomance";
 import Sentiment from "./Sentiment";
 import About from "./About";
 import Team from "./Team";
+import YouMayAlsoLike from "./YouMayAlsoLike";
+import TrendingCoins from "./TrendingCoins";
+import { useState } from "react";
 
 
 function App() {
+
   const breadcrumbItems = [
     { label: 'Cryptocurrencies', link: '/cryptocurrencies' },
     { label: 'Bitcoin', link: '/cryptocurrencies/bitcoin' },
   ];
 
+
   return (
     <div className="App">
-      <Navbar />
-      <Breadcrumb items={breadcrumbItems} />
-      <CryptoDashboard />
-      <ScrollSpy />
-      <Perfomance />
-      <Sentiment />
-      <About />
-      <Team />
+          <Navbar />
+      <div className="wrap-box">
+        <div>
+          <Breadcrumb items={breadcrumbItems} />
+          <CryptoDashboard />
+          <ScrollSpy />
+          <Perfomance />
+          <Sentiment />
+          <About />
+          <Team />
+        </div>
+
+        <div>
+        <TrendingCoins />
+        </div> 
+      </div>
+      <YouMayAlsoLike />
     </div>
   );
 }

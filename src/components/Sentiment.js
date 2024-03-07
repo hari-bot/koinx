@@ -1,5 +1,5 @@
 function Sentiment(){
-    
+
     const analystItems = [
             { label: 'Buy', color: '#3498db' },
             { label: 'Hold', color: '#2ecc71' },
@@ -11,9 +11,9 @@ function Sentiment(){
         <h1  className="heading">Sentiment</h1>
         <h2 className="light-heading">Key Events</h2>
         <div className="card-section">
-            <div class="cards-wrapper">
+            <div className="cards-wrapper">
 
-                <div class="card blue-card">
+                <div className="card blue-card">
                    <div className="card-content">
                    <h3>
                    Lorem ipsum dolor sit amet consectetur. Dui vel quis dignissim mattis enim tincidunt.
@@ -26,7 +26,7 @@ function Sentiment(){
 
                 </div>
                 
-                <div class="card green-card">
+                <div className="card green-card">
                    <div className="card-content">
                    <h3>
                    Lorem ipsum dolor sit amet consectetur. Dui vel quis dignissim mattis enim tincidunt.
@@ -39,7 +39,7 @@ function Sentiment(){
 
                 </div>
 
-                <div class="card blue-card">
+                <div className="card blue-card">
                    <div className="card-content">
                    <h3>
                    Lorem ipsum dolor sit amet consectetur. Dui vel quis dignissim mattis enim tincidunt.
