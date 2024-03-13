@@ -70,7 +70,7 @@ function Perfomance(){
 
       useEffect(() => {
         fetchData();
-      }, []);
+      });
 
 
 

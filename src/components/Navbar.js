@@ -16,10 +16,10 @@ function Navbar(){
            </div>
 
            <ul className={`nav-links ${isMobileMenuOpen ? 'mobile-menu-open' : ''}`}>
-                <li><a className="nav-link">Crypto Taxes</a></li>
-                <li><a className="nav-link">Free Tools</a></li>
-                <li><a className="nav-link">Resource Center</a></li>
-                <li><a className="nav-link primary-btn">Get Started</a></li>
+                <li><button className="nav-link">Crypto Taxes</button></li>
+                <li><button className="nav-link">Free Tools</button></li>
+                <li><button className="nav-link">Resource Center</button></li>
+                <li><button className="nav-link primary-btn">Get Started</button></li>
            </ul>
 
            <div className="hamburger-menu" onClick={toggleMobileMenu}>

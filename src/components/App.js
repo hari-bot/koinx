@@ -8,7 +8,6 @@ import About from "./About";
 import Team from "./Team";
 import YouMayAlsoLike from "./YouMayAlsoLike";
 import TrendingCoins from "./TrendingCoins";
-import { useState } from "react";
 
 
 function App() {
