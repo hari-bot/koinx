@@ -1,0 +1,59 @@
+[33mcommit 1a985f0a98d897182cd439eb7338c6ea7794c67b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: 01XASSASSIN <hariharanuv7@gmail.com>
+Date:   Thu Mar 7 22:24:39 2024 +0530
+
+    added trendingcoins and youmayalsolikeit components still under development
+
+[33mcommit 28601d0a52cc0ccb3e665777339cce282516c539[m
+Author: 01XASSASSIN <hariharanuv7@gmail.com>
+Date:   Thu Mar 7 19:07:38 2024 +0530
+
+    complete team component
+
+[33mcommit 26711b814da7069daefa62317ecff917ed47d0ee[m
+Author: 01XASSASSIN <hariharanuv7@gmail.com>
+Date:   Thu Mar 7 18:37:51 2024 +0530
+
+    complete sentiment component
+
+[33mcommit 42bbe4e087dd3f6ff1c74f6ee3795419b0a187a7[m
+Author: 01XASSASSIN <hariharanuv7@gmail.com>
+Date:   Thu Mar 7 16:11:26 2024 +0530
+
+    added perfomance component
+
+[33mcommit 73cfc5b0f3ea95f3b4219d50d7fbbf64df49a9e2[m
+Author: 01XASSASSIN <hariharanuv7@gmail.com>
+Date:   Thu Mar 7 12:21:52 2024 +0530
+
+    complete scrollspy
+
+[33mcommit 4552505f10a67ac73f176f13190977dfda2fa590[m
+Author: 01XASSASSIN <hariharanuv7@gmail.com>
+Date:   Thu Mar 7 11:12:00 2024 +0530
+
+    Dash board and Chart
+
+[33mcommit 4cf64143cfe5716be3b8b4488d839e73237254e0[m
+Author: 01XASSASSIN <hariharanuv7@gmail.com>
+Date:   Wed Mar 6 21:59:13 2024 +0530
+
+    completed breadvrumb
+
+[33mcommit 8c6f4f80d8dab2784c810619c2cf05dcc14d7eb2[m
+Author: 01XASSASSIN <hariharanuv7@gmail.com>
+Date:   Wed Mar 6 21:36:36 2024 +0530
+
+    navbar completed
+
+[33mcommit 06d9b8411156fafaa8df60ef75c60bda544a75cd[m
+Author: 01XASSASSIN <hariharanuv7@gmail.com>
+Date:   Wed Mar 6 20:08:36 2024 +0530
+
+    initial commit
+
+[33mcommit 5d33783eb7a7a21f67a622c0a255c5f1d4bfdff8[m
+Author: 01XASSASSIN <hariharanuv7@gmail.com>
+Date:   Wed Mar 6 19:57:07 2024 +0530
+
+    Initialize project using Create React App

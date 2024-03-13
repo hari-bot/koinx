@@ -63,7 +63,7 @@ body {
 .hamburger-menu {
   display: none; /* Initially hide on larger screens */
   cursor: pointer;
-  margin-right: 50px;
+  margin-right: 10px;
 }
 
 .bar {
@@ -430,9 +430,6 @@ hr{
   padding: 10px;
 }
 
-.you-may-also-like{
-  background-color: #FFFFFF;
-}
 
 .container-xl{
   margin-top: 15px;
@@ -445,19 +442,90 @@ hr{
   width: 93%;
 }
 
-.coin .card{
-  background-color: #14B079;
+.coin .scroll-card{
+  border:  2px solid #cecdcd;
+  border-radius: 16px;
+  padding: 20px 10px;
+  width: 282px;
 }
 
+.coin .coin-detail-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.coin .coin-detail-wrap .icon-name{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+
+
 .container-sm{
-  height: 225px;
   width: 427px;
   margin-top: 50px;
   margin-left: 20px;
   background-color: #FFFFFF;
-  padding: 20px;
-  border-radius:1px;
+  padding:20px 25px;
+  border-radius: 8px;
+  display: block;
+  box-sizing: border-box;
 }
+
+.trending-coins .coin{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  
+}
+
+.trending-coins .coin .coin-detail img{
+  border-radius: 50%;
+}
+
+
+
+.coin .coin-detail{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+
+}
+
+.coin .icon{
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+}
+
+.coin p{
+  font-weight: 600;
+}
+
+.sparkline{
+  width: 200px;
+  height: 60px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.tradingview-widget-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.tradingview-widget-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
+
 
 
 @media (max-width: 920px) {
@@ -481,6 +549,11 @@ hr{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     display: none; 
   }
+
+  .tradingview-widget-container {
+    max-width: 837px;
+    height: 267px !important;
+  } 
 
   .nav-links.mobile-menu-open {
     display: flex;
