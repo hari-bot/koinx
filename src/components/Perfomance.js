@@ -61,7 +61,6 @@ function Perfomance(){
             setHighLow(highLowData)
             const calculatePosistion = ((cureentPrice - highLow.low) / (highLow.high - highLow.low)) * 100;
             setpercentagePosition(calculatePosistion)
-            console.log(percentagePosition)
           })
           .catch(error => {
             console.error('Error fetching data:', error);
@@ -70,7 +69,7 @@ function Perfomance(){
 
       useEffect(() => {
         fetchData();
-      });
+      }, []);
 
 
 
