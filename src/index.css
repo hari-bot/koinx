@@ -7,8 +7,11 @@ body {
     background-color: #eff2f5;
 }
 
-.wrap-box{
+.wrap-box {
   display: flex;
+  @media (max-width: 1450px) {
+    flex-direction: column;
+  }
 }
 
 .navbar {
@@ -475,8 +478,7 @@ hr{
   background-color: #FFFFFF;
   padding:20px 25px;
   border-radius: 8px;
-  display: block;
-  box-sizing: border-box;
+  position: relative;
 }
 
 .trending-coins .coin{
@@ -607,11 +609,6 @@ hr{
   }
 
   .container-xl{
-    margin: 15px 20px;
-    width: 90%;
-  }
-
-  .container-sm{
     margin: 15px 20px;
     width: 90%;
   }
